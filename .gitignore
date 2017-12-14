@@ -1,0 +1,33 @@
+*.class
+target
+.classpath
+.settings
+.project
+*.iml
+*.iws
+*.ipr
+.idea
+*.*~
+.meta
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+#Exclude
+!repository-api/lib/*.jar
+**/dependency-reduced-pom.xml
+/reports/
+
+#ignore .car files in analytics folder
+analytics/**/*.car
+analytics-test/**/*.car
+
+testing
