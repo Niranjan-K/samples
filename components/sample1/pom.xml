@@ -3,7 +3,7 @@
     <parent>
         <groupId>org.wso2.nira.sample.repo</groupId>
         <artifactId>sample-test</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>1.0.0.w1513673083000</version>
         <relativePath>../../pom.xml</relativePath>
     </parent>
 
