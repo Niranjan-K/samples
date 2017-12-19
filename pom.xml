@@ -10,14 +10,14 @@
 
     <groupId>org.wso2.nira.sample.repo</groupId>
     <artifactId>sample-test</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <scm>
         <url>https://github.com/Niranjan-K/samples.git</url>
         <developerConnection>scm:git:https://github.com/Niranjan-K/samples.git</developerConnection>
         <connection>scm:git:https://github.com/Niranjan-K/samples.git</connection>
-        <tag>v1.0.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <modules>
@@ -79,7 +79,7 @@
 
     <properties>
 
-        <sample.version>1.0.0</sample.version>
+        <sample.version>1.0.1-SNAPSHOT</sample.version>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <carbon.feature.plugin.version>3.1.1</carbon.feature.plugin.version>
