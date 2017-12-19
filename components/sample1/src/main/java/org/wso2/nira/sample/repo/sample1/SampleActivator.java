@@ -17,7 +17,7 @@ public class SampleActivator implements BundleActivator {
 
     @Activate
     public void start(BundleContext bundleContext) throws Exception {
-        logger.info("w1513673083000");
+        logger.info("1.0.0g");
     }
 
     @Deactivate
