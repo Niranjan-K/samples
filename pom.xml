@@ -12,8 +12,15 @@
 
     <groupId>org.wso2.nira.sample.repo</groupId>
     <artifactId>sample-test</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
+
+    <scm>
+        <url>https://github.com/Niranjan-K/samples.git</url>
+        <developerConnection>scm:git:https://github.com/Niranjan-K/samples.git</developerConnection>
+        <connection>scm:git:https://github.com/Niranjan-K/samples.git</connection>
+        <tag>HEAD</tag>
+    </scm>
 
     <modules>
         <module>components/sample1</module>
@@ -73,10 +80,10 @@
     </build>
 
     <properties>
+
+        <sample.version>1.0.0-SNAPSHOT</sample.version>
+
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-
-        <sample.version>1.0.0</sample.version>
-
         <carbon.feature.plugin.version>3.1.1</carbon.feature.plugin.version>
         <carbon.utils.version>2.0.2</carbon.utils.version>
         <slf4j.logging.package.import.version.range>[1.7.1, 2.0.0)</slf4j.logging.package.import.version.range>

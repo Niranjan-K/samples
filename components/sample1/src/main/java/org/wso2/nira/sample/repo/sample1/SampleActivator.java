@@ -17,7 +17,7 @@ public class SampleActivator implements BundleActivator {
 
     @Activate
     public void start(BundleContext bundleContext) throws Exception {
-        logger.info("Testing one two three");
+        logger.info("Testing four");
     }
 
     @Deactivate
