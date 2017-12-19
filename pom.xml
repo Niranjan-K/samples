@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
@@ -12,14 +10,14 @@
 
     <groupId>org.wso2.nira.sample.repo</groupId>
     <artifactId>sample-test</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>pom</packaging>
 
     <scm>
         <url>https://github.com/Niranjan-K/samples.git</url>
         <developerConnection>scm:git:https://github.com/Niranjan-K/samples.git</developerConnection>
         <connection>scm:git:https://github.com/Niranjan-K/samples.git</connection>
-        <tag>HEAD</tag>
+        <tag>v1.0.0</tag>
     </scm>
 
     <modules>
@@ -81,7 +79,7 @@
 
     <properties>
 
-        <sample.version>1.0.0-SNAPSHOT</sample.version>
+        <sample.version>1.0.0</sample.version>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <carbon.feature.plugin.version>3.1.1</carbon.feature.plugin.version>
