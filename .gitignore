@@ -32,3 +32,17 @@ analytics/**/*.car
 analytics-test/**/*.car
 
 testing
+
+workspace/RemoteSystemsTempFiles
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
